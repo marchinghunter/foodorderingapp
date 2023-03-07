@@ -1,0 +1,32 @@
+.descriptionbox {
+  background: rgba(255, 255, 255, 0.38);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(9.4px);
+  -webkit-backdrop-filter: blur(9.4px);
+  border: 1px solid rgba(255, 255, 255, 0.42);
+  z-index: 1;
+  position: relative;
+  bottom: 10rem;
+  width: fit-content;
+  padding: 3rem;
+  text-align: center;
+}
+.headingofdesc {
+  font-size: 2.7rem;
+}
+.description {
+  font-size: 1.4rem;
+}
+@media (min-width: 300px) and (max-width: 500px) {
+  .descriptionbox {
+    font-size: 1.2rem;
+  }
+  .description {
+    font-size: 1.1rem;
+  }
+  .headingofdesc{
+    font-size: 1.7rem;
+
+  }
+}

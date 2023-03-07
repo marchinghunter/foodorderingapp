@@ -1,0 +1,21 @@
+*{
+  box-sizing: border-box;
+  /* border: solid 1px red; */
+}
+.middleContainer {
+  width: 100%;
+  max-height: 40vh;
+  text-align: center;
+  
+}
+.container {
+  clip-path: polygon(0 0, 100% 0, 100% 71%, 0 100%);
+  background-image: url(../images/pexels-chan-walrus-958545.jpg);
+  /* width: 100%; */
+  min-height: 45vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  
+}
+

@@ -1,0 +1,163 @@
+/* html,
+body {
+  margin: 0px;
+  height: 100%;
+} */
+.Detailedcart {
+  background-color: rgb(241, 237, 237);
+  min-height: 100vh;
+  max-height: max-content;
+  display: flex;
+  flex-direction: column;
+}
+body{
+  background-color: rgb(241, 237, 237);
+}
+.div1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.div2 {
+  grid-area: 2 / 1 / 3 / 2;
+  margin: 2rem;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-bottom:1rem;
+  flex:1;
+}
+.emptyCart {
+  display: flex;
+  flex-direction: column;
+  /* text-align: center; */
+  height: 50vh;
+  justify-content: center;
+  align-items: center;
+}
+.filledCart {
+  display: flex;
+  flex-direction: column;
+  margin: 2.5rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  border-bottom: 3px solid black;
+}
+.orderedheading{
+  display: flex;
+  justify-content: center;
+}
+.cartIcon {
+  font-size: 10rem;
+}
+.cartfoodprice{
+  display: block;
+  /* border: 1px solid red; */
+  /* top: 11rem; */
+  position: absolute;
+  right: 5rem;
+}
+.inc,.dec{
+  width:5.2rem;
+  text-align: center;
+  color: white;
+  border: 0.2rem solid #0f4c75;
+  background-color: #0f4c75;
+  padding: 1rem;
+  display: inline-block;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  font-size: 1.8rem;
+  cursor: pointer;
+  margin: 0px;
+  margin-bottom: 2rem;
+}
+.inc{
+  border-radius: 0 1.9rem 1.9rem 0;
+}
+.dec{
+  border-radius: 1.9rem 0 0 1.9rem;
+}
+.inc:hover,.dec:hover{
+  text-align: center;
+  color: black;
+  background-color: #bbe1fa;
+}
+.newsetquantity{
+  width:5.2rem;
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 2rem;
+  height: 4.438rem;
+  font-size: 2rem;
+  text-align: center;
+}
+.quantityadjuster{
+  display: inline-block;
+  position: relative;
+  right: -83rem;
+}
+.fooddetailswrapper{
+  display: flex;
+}
+footer{
+  position: sticky;
+  width: 100%;
+  bottom: 0px;
+}
+
+.proccedcontainer{
+  background-color: #3f72af;
+  padding: 1.5rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.5rem;
+  color: #ffffff;
+  /* position: sticky; */
+  height: 9rem;
+  bottom: 0px;
+}
+.orderbtn{
+  text-align: center;
+  color: white;
+  border: 0.2rem solid #3f72af;
+  border-radius: 1.9rem;
+  background-color: #0f4c75;
+  padding: 1rem;
+  display: inline-block;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  font-size: 1.5rem;
+  position: absolute;
+  margin: 1.5rem;
+  right: 5rem;
+  cursor: pointer;
+}
+.orderbtn:hover {
+  text-align: center;
+  color: black;
+  background-color: #bbe1fa;
+  display: inline-block;
+}
+.orders{
+  background-color: rgb(241, 237, 237);
+}
+.totalpricecontainer{
+  display: flex;
+  flex-direction: row;
+}
+.orderlink{
+  color:#3f72af;
+  display: inline-block;
+}
+@media (max-width: 480px) {
+  .div2{
+    overflow: hidden;
+    display: flex;
+  }
+  .emptyCart {
+    
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+  }
+}
