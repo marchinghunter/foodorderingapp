@@ -3,7 +3,7 @@ const { model, Schema } = mongoose;
 
 const database=mongoose
   .createConnection(
-    "mongodb+srv://dm6593120:root@cluster0.gw9ki7u.mongodb.net/foodmenu?retryWrites=true&w=majority"
+    "MONGODB Link"
   )
 
 const foodmenuSchema = new Schema({
