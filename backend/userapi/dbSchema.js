@@ -3,7 +3,7 @@ const { model, Schema } = mongoose;
 const bcrypt = require("bcrypt");
 
 const database = mongoose.createConnection(
-  "mongodb+srv://dm6593120:root@cluster0.gw9ki7u.mongodb.net/userdata?retryWrites=true&w=majority"
+  "MongoDB LINK"
 );
 
 const userDataSchema = new Schema({
